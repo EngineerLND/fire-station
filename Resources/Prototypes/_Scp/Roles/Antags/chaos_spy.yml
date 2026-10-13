@@ -48,7 +48,6 @@
     components:
     - LowPositionStaff
   pickCommandStaff: false
-  lateJoinAdditional: false
   mindRoles:
   - MindRoleChaosSpy
 
@@ -62,8 +61,6 @@
     - AntagImmune
     - ChaosSpySelectionBlacklist
   pickCommandStaff: true
-  ignoreCanBeAntag: true
-  lateJoinAdditional: false
   mindRoles:
   - MindRoleChaosSpy
 
@@ -73,11 +70,9 @@
   prefRoles:
   - ChaosSleepSpy
   pickCommandStaff: true
-  ignorePrefCheck: true
   multiAntagSetting: NotExclusive
   blacklist:
     components:
     - AntagImmune
     - ChaosSpyRole
     - ChaosSpySelectionBlacklist
-  lateJoinAdditional: false
