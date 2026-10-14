@@ -2,7 +2,7 @@
 
 namespace Content.Server._Scp.Other.CustomBriefing;
 
-[RegisterComponent, Access(typeof(ChaosSleepSpyRuleSystem))]
+[RegisterComponent, Access(typeof(CustomBriefingComponent))]
 public sealed partial class CustomBriefingComponent : Component
 {
     [DataField]
