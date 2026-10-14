@@ -18,13 +18,13 @@ public sealed partial class CustomBriefingSystem: EntitySystem
         if (ent.Comp.IsIssued)
             return;
 
-        ent.Comp.IsIssued = true;
-
         _antag.SendBriefing(
             ent.Owner,
             Loc.GetString(ent.Comp.BriefingText),
             Color.FromHex(ent.Comp.BriefingColor),
             ent.Comp.BriefingSound
         );
+        
+        ent.Comp.IsIssued = true;
     }
 }

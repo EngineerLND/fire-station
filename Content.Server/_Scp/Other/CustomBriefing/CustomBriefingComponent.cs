@@ -14,6 +14,6 @@ public sealed partial class CustomBriefingComponent : Component
     [DataField]
     public string? BriefingColor;
 
-    [ViewVariables]
-    public bool IsIssued = false;
+    [DataField]
+    public bool IsIssued;
 }
