@@ -6005,3 +6005,10 @@
     message: исправлен баг с неверным отображением большого количества конфет в SCP-330
   id: 554
   url: https://github.com/makura-games/project-fire/pull/1172
+- author: timur
+  time: '2026-10-14T10:24:45.0000000+00:00'
+  changes:
+  - type: Add
+    message: Теперь в далеке проигрывается страшный эмбиент, когда SCP убивает человека
+  id: 555
+  url: https://github.com/makura-games/project-fire/pull/1181
