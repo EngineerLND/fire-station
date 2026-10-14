@@ -2,7 +2,7 @@
 
 namespace Content.Server._Scp.Other.CustomBriefing;
 
-[RegisterComponent, Access(typeof(CustomBriefingComponent))]
+[RegisterComponent, Access(typeof(CustomBriefingSystem))]
 public sealed partial class CustomBriefingComponent : Component
 {
     [DataField]
@@ -14,6 +14,6 @@ public sealed partial class CustomBriefingComponent : Component
     [DataField]
     public string? BriefingColor;
 
-    [DataField]
-    public bool IsIssued;
+    [ViewVariables]
+    public bool IsIssued = false;
 }
