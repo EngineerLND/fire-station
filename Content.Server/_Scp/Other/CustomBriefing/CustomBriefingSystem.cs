@@ -3,7 +3,7 @@ using Content.Shared.Mind.Components;
 
 namespace Content.Server._Scp.Other.CustomBriefing;
 
-public sealed partial class CustomBriefingSystem: EntitySystem
+public sealed partial class CustomBriefingSystem : EntitySystem
 {
     [Dependency] private AntagSelectionSystem _antag = default!;
 
