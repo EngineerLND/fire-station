@@ -10,6 +10,7 @@ public sealed partial class CustomBriefingSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
+        
         SubscribeLocalEvent<CustomBriefingComponent, MindAddedMessage>(OnMindAdded);
     }
 
