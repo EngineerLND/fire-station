@@ -10,7 +10,7 @@ public sealed partial class CustomBriefingSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        
+
         SubscribeLocalEvent<CustomBriefingComponent, MindAddedMessage>(OnMindAdded);
     }
 
@@ -19,13 +19,15 @@ public sealed partial class CustomBriefingSystem : EntitySystem
         if (ent.Comp.IsIssued)
             return;
 
+        var color = Color.FromHex(ent.Comp.BriefingColor, Color.Gray);
+
         _antag.SendBriefing(
             ent.Owner,
             Loc.GetString(ent.Comp.BriefingText),
-            Color.FromHex(ent.Comp.BriefingColor),
+            color,
             ent.Comp.BriefingSound
         );
-        
+
         ent.Comp.IsIssued = true;
     }
 }

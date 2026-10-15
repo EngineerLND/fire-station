@@ -44,7 +44,6 @@
   components:
   - type: CustomBriefing
     briefingText: "chaos-raider-welcome-neutral"
-    briefingColor: "#121910"
     briefingSound:
       path: /Audio/_Scp/Themes/The_Chaos_Insurgency_Theme.ogg
   - type: GhostRole
