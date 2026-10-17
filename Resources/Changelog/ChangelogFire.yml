@@ -6109,3 +6109,10 @@
     message: Имплант мобильной опер. группы теперь трубит о гибели владельца в частоту МОГ, а не РУ.
   id: 561
   url: https://github.com/makura-games/project-fire/pull/1175
+- author: EngineerLND
+  time: '2026-10-17T12:36:41.0000000+00:00'
+  changes:
+  - type: Add
+    message: Каждая оперативная группа получила уникальный звук при появлении и брифинг.
+  id: 562
+  url: https://github.com/makura-games/project-fire/pull/1186
