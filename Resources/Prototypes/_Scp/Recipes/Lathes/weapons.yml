@@ -7,3 +7,17 @@
   - WeaponEarthGovLaserMG
   - WeaponARLSniper
   - WeaponGodlikeXRay
+
+- type: latheRecipePack
+  id: SecurityStaticAmmoScp
+  recipes:
+  - MagazinePistolHighCapacitySP
+  - MagazinePistolHighCapacityRubber
+  - MagazinePistolHighCapacityEmpty
+  - MagazinePistolHighCapacityFMJ
+
+- type: latheRecipePack
+  id: SecurityStaticToolsScp
+  recipes:
+  - ClothingHeadHelmetSecuritylight
+  - ClothingEyesGlassesSecurity
