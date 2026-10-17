@@ -6043,3 +6043,21 @@
     message: Теперь носок-булава рвётся после 4 - 5 ударов по другому существу
   id: 558
   url: https://github.com/makura-games/project-fire/pull/1190
+- author: Data_deleted
+  time: '2026-10-17T11:30:41.0000000+00:00'
+  changes:
+  - type: Add
+    message: Добавлен малый рейд повстанцев хаоса с шансом появления в течении раунда
+  - type: Add
+    message: Добавлен белый уровень угрозы
+  - type: Tweak
+    message: Изменен серый уровень угрозы
+  - type: Tweak
+    message: Респрайт шлема СБ
+  - type: Fix
+    message: Исправление локализации РШ-12
+  id: 559
+  url: https://github.com/makura-games/project-fire/pull/1185
+  media:
+  - url: https://github.com/user-attachments/assets/a8df5862-a648-41de-b2cb-78809db34c4b
+    description: image
