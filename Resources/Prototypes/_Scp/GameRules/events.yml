@@ -133,13 +133,10 @@
   id: ScpVanillaEventsTable
   table: !type:AllSelector
     children:
-    - id: BureaucraticError
     - id: ClericalError
 #    - id: ScpCockroachMigration
     - id: GreytideVirus
-    - id: IonStorm
     - id: MassHallucinations
-    - id: MimicVendorRule
     - id: MouseMigration
     - id: RandomSentience
     - id: SolarFlare
