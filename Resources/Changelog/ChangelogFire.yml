@@ -6061,3 +6061,14 @@
   media:
   - url: https://github.com/user-attachments/assets/a8df5862-a648-41de-b2cb-78809db34c4b
     description: image
+- author: timur
+  time: '2026-10-17T12:08:15.0000000+00:00'
+  changes:
+  - type: Remove
+    message: Вырезан HUD из очков СБ
+  - type: Remove
+    message: Трость SCP-049 перемещена из сумки в смотровую ученых
+  - type: Remove
+    message: Возможно, окончательное удаление спавна таракомоли и его друзей
+  id: 560
+  url: https://github.com/makura-games/project-fire/pull/1179
