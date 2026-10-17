@@ -6012,3 +6012,10 @@
     message: Теперь в далеке проигрывается страшный эмбиент, когда SCP убивает человека
   id: 555
   url: https://github.com/makura-games/project-fire/pull/1181
+- author: timur
+  time: '2026-10-17T11:04:56.0000000+00:00'
+  changes:
+  - type: Add
+    message: Добавлена эмоция плюшевого писка для SCP-2295
+  id: 556
+  url: https://github.com/makura-games/project-fire/pull/1191
